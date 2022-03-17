@@ -587,6 +587,7 @@ header p {
   padding: 1.5em 1em;
   border: 1px solid #eee;
   border-radius: 0.25em;
+  margin: 10px;
 }
 
 .card h1 {
@@ -596,11 +597,9 @@ header p {
 }
 
 @media (min-width: 576px) {
-  .card {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-  }
+  -webkit-box-flex: 1;
+      -ms-flex: 1 45%;
+          flex: 1 45%;
 }
 
 footer {
