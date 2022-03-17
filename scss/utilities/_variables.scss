@@ -6,6 +6,7 @@
 $white: #fff;
 
 $color-primary: #2ba8c4; // teal
+$color-primary-light: lighten($color-primary, 10%);
 $color-secondary: #8a1d42; // dark violet red
 $color-accent: #eeea72;
 $color-shade: #eee;
