@@ -6,13 +6,10 @@
 .main-content {
   display: flex;
   flex-wrap: wrap;
-}  
-
-@media (min-width: 768px) {
-  .main-content {
-    @include center;
+  @media (min-width: 768px) {
+      @include center;
   }
-}
+}  
 
 // Inner
 .inner {
@@ -25,13 +22,9 @@
   margin: auto;
   padding: 1em 1em 3em; 
   p {
-    font-size: 1.2em; 
+        font-size: 1.2em; 
   }  
-}
-
-@media (min-width: 992px) {
-  .intro {
-    width: 45%;
+    @media (min-width: 992px) {
+        width: 45%;
   }
 }
-
