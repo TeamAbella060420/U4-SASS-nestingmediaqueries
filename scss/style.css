@@ -643,7 +643,7 @@ footer::after {
 }
 
 .main-nav a:hover {
-  color: #eeea72;
+  color: rgba(238, 234, 114, 0.7);
 }
 
 .btn-callout, .btn-info {
@@ -680,7 +680,7 @@ footer::after {
 
 .material-icons {
   font-size: 2.35em;
-  color: #2ba8c4;
+  color: #4bbed7;
 }
 
 .img-featured {
