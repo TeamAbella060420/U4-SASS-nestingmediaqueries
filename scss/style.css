@@ -483,12 +483,12 @@ p {
 }
 
 a {
-  color: #278da4;
+  color: #2ba8c4;
   text-decoration: none;
 }
 
 a:hover {
-  color: #a32a52;
+  color: #8a1d42;
 }
 
 .main-content {
@@ -590,7 +590,7 @@ header p {
 }
 
 .card h1 {
-  color: #278da4;
+  color: #2ba8c4;
   margin: 0.35em 0 0;
   line-height: 1.25;
 }
@@ -669,18 +669,18 @@ footer::after {
 
 .btn-callout {
   font-size: 1.1em;
-  background-color: #a32a52;
+  background-color: #8a1d42;
 }
 
 .btn-info {
   font-size: 0.85em;
-  background-color: #278da4;
+  background-color: #2ba8c4;
   margin-top: auto;
 }
 
 .material-icons {
   font-size: 2.35em;
-  color: #278da4;
+  color: #2ba8c4;
 }
 
 .img-featured {
