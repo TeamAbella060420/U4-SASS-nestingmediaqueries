@@ -46,19 +46,27 @@
 
 // Media queries
 @mixin mq($break) {
-  @if $break == 'xs' {
-    @media  (max-width: $break-xs) {
+$value: map-get($breakpoints, $break);
+$sm: map-get($breakpoints, 'sm' );
+
+  @if $value < $sm {
+    @media  (max-width: $value) {
       @content;
     }
   }
-  @else if $break == 'sm' {
-    @media  (min-width: $break-s) {
+  @else {
+    @media  (min-width: $value) {
       @content;
     }
   }
-  @else if $break == 'med' {
-    @media  (min-width: $break-m) {
-      @content;
-    }
+}
+
+// Colors
+@mixin themes($map) {
+  
+@each $theme, $color in $map {
+  .icn-#{$theme} {
+    color: $color;
   }
+}
 }
