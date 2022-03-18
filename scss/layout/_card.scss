@@ -9,19 +9,19 @@
   border: 1px solid $color-shade;
   border-radius: 0.25em;
   margin: $gutter;
-  h1 {
-    color: $color-primary;
-    margin: 0.35em 0 0;
-    line-height: 1.25;
-  }
+    h1 {
+      color: $color-primary;
+      margin: 0.35em 0 0;
+      line-height: 1.25;
+    }
 
 
-  @media (min-width: $break-s) {
-        flex: 1 per-line(2);
-  }
-  @media (min-width: $break-l) {
-    flex-basis: per-line(3);
-  }
+    @media (min-width: $break-s) {
+          flex: 1 per-line(2);
+    }
+    @media (min-width: $break-l) {
+      flex-basis: per-line(3);
+    }
 }
 
 
