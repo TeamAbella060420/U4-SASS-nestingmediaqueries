@@ -15,10 +15,10 @@
     }
 
 
-    @media (min-width: $break-s) {
+    @media (max-width: $breakpoints) {
           flex: 1 per-line(2);
     }
-    @media (min-width: $break-l) {
+    @media (min-width: $breakpoints) {
       flex-basis: per-line(3);
     }
 }
