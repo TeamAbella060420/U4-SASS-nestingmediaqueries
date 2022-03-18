@@ -65,8 +65,8 @@ $sm: map-get($breakpoints, 'sm' );
 @mixin themes($map) {
   
 @each $theme, $color in $map {
-  .icn-#{$theme} {
+  &-#{$theme} {
     color: $color;
+    }
   }
-}
 }
