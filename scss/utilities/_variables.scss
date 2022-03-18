@@ -5,9 +5,9 @@
 // Colors
 $white: #fff;
 
-$color-primary: #2ba8c4; // teal
+$color-primary: #278da4; // teal
 $color-primary-light: lighten($color-primary, 10%);
-$color-secondary: #8a1d42; // dark violet red
+$color-secondary: #b13c69; // dark violet red
 $color-accent: #eeea72;
 $color-shade: #eee;
 
@@ -25,18 +25,18 @@ $gutter: 10px;
 
 // Breakpoints
 $breakpoints: (
- 'xs': 575px,
- 'sm': 576px,
-'med': 768px,
- 'lg': 992px,      
+  'xs': 575px, 
+  'sm': 576px,
+ 'med': 768px,
+  'lg': 992px,  
 );
 
 // Theme colors
 $themes: (
-    'ent': #79ccf5, 
-   'arch': #fd6fa6,
-    'edu': #23abbe,
-    'sim': #2377bb,
-    'soc': #ada3f0,
-  'games': #3cb144,
-)
+  'ent': #79ccf5,
+ 'arch': #fd6fa6, 
+  'edu': #23bbae,
+  'sim': #2377bb,
+  'soc': #ada3f0,
+'games': #3cb144,
+);
