@@ -8,19 +8,17 @@
   border: 1px solid $color-shade;
   border-radius: 0.25em;
   margin: $gutter;
-    h1 {
-      color: $color-primary;
-      margin: 0.35em 0 0;
-      line-height: 1.25;
-    }
-
-
-    @media (max-width: $breakpoints) {
-          flex: 1 per-line(2);
-    }
-    @media (min-width: $breakpoints) {
-      flex-basis: per-line(3);
-    }
+  h1 {
+    color: $color-primary;
+    margin: 0.35em 0 0;
+    line-height: 1.25;
+  }
+  @include mq('sm') {
+    flex: 1 per-line(2);
+  }
+  @include mq('lg') {
+    flex-basis: per-line(3);
+  }
 }
 
 
