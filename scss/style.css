@@ -471,7 +471,6 @@ body {
   font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 0;
-  background-color: red;
 }
 
 h1,
@@ -520,12 +519,6 @@ a:hover {
 
 .intro p {
   font-size: 1.2em;
-}
-
-@media (min-width: 992px) {
-  .intro {
-    width: 45%;
-  }
 }
 
 header {
